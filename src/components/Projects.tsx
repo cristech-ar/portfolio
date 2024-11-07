@@ -29,7 +29,7 @@ export default function Projects({ darkMode }: { darkMode: boolean }) {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   return (
-    <section className={`min-h-screen py-20 ${darkMode ? 'bg-gray-800 text-white' : 'bg-gray-50 text-black'}`}>
+    <section id='projects' className={`min-h-screen py-20 ${darkMode ? 'bg-black text-white' : 'bg-gray-50 text-black'}`}>
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

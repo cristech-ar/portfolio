@@ -15,7 +15,7 @@ const technologies = [
 
 export default function TechSkills({ darkMode }: { darkMode: boolean }) {
   return (
-    <section className={`py-20 ${darkMode ? 'bg-black text-white' : 'bg-white text-black'}`} id="skills">
+    <section className={`py-20 min-h-screen ${darkMode ? 'bg-black text-white' : 'bg-white text-black'}`} id="skills">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Tech Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
@@ -24,7 +24,7 @@ export default function TechSkills({ darkMode }: { darkMode: boolean }) {
               key={index}
               className={`flex flex-col items-center p-6 rounded-xl transition-all duration-300 ${
                 darkMode 
-                  ? 'bg-gray-900 hover:bg-gray-800' 
+                  ? 'bg-gray-700 hover:bg-gray-600' 
                   : 'bg-gray-50 hover:shadow-lg'
               }`}
             >

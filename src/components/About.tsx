@@ -7,7 +7,7 @@ export default function About({ darkMode }: { darkMode: boolean }) {
           <div className="space-y-6">
             <div className="w-64 h-64 mx-auto md:mx-0 rounded-full overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300"
+                src="https://i.ibb.co/1ZFDN8d/1718368442737.jpg"
                 alt="Cristian Rios"
                 className="w-full h-full object-cover"
               />

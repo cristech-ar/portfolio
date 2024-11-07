@@ -18,14 +18,15 @@ function App() {
       <Navbar darkMode={darkMode} />
       <button
         onClick={toggleDarkMode}
-        className={`fixed top-6 right-6 z-50 p-3 rounded-full transition-all duration-300 ${
+        className={`fixed top-20 right-6 z-50 p-3 m-4 rounded-full transition-all duration-300 ${
           darkMode 
             ? 'bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm' 
             : 'bg-black/5 hover:bg-black/10 backdrop-blur-sm'
         }`}
         aria-label="Toggle dark mode"
       >
-        {darkMode ? <Sun size={24} /> : <Moon size={24} />}
+        {darkMode ? <Sun size={24} /> : <Moon size={24} />} 
+        
       </button>
       <Hero darkMode={darkMode} />
       <About darkMode={darkMode} />
