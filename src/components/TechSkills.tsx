@@ -1,16 +1,16 @@
 const technologies = [
-  { name: 'Javascript', icon: 'src/icons/js.svg' },
-  { name: 'Angular', icon: 'src/icons/angular.svg' },
-  { name: 'React', icon: 'src/icons/react.svg' },
-  { name: 'Node.js', icon: 'src/icons/nodejs.svg' },
-  { name: 'MongoDB', icon: 'src/icons/mongo.svg' },
-  { name: 'SQL', icon: 'src/icons/sql.svg' },
-  { name: 'ElasticSearch', icon: 'src/icons/elastic.svg' },
-  { name: 'Redis', icon: 'src/icons/redis.svg' },
-  { name: 'Docker', icon: 'src/icons/docker.svg' },
-  { name: 'AWS', icon: 'src/icons/aws.svg' },
-  { name: 'Azure', icon: 'src/icons/azure.svg' },
-  { name: 'Linux', icon: 'src/icons/linux.svg' }
+  { name: 'Javascript', icon: '/icons/js.svg' },
+  { name: 'Angular', icon: '/icons/angular.svg' },
+  { name: 'React', icon: '/icons/react.svg' },
+  { name: 'Node.js', icon: '/icons/nodejs.svg' },
+  { name: 'MongoDB', icon: '/icons/mongo.svg' },
+  { name: 'SQL', icon: '/icons/sql.svg' },
+  { name: 'ElasticSearch', icon: '/icons/elastic.svg' },
+  { name: 'Redis', icon: '/icons/redis.svg' },
+  { name: 'Docker', icon: '/icons/docker.svg' },
+  { name: 'AWS', icon: '/icons/aws.svg' },
+  { name: 'Azure', icon: '/icons/azure.svg' },
+  { name: 'Linux', icon: '/icons/linux.svg' }
 ];
 
 export default function TechSkills({ darkMode }: { darkMode: boolean }) {
