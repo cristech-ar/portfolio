@@ -3,26 +3,20 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'Full-stack MERN e-commerce solution with real-time inventory management',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000',
-    github: 'https://github.com/username/ecommerce',
-    preview: 'https://example.com/ecommerce'
+    title: 'NASA APOD Viewer',
+    description: 'A React web application built with TypeScript and Vite ',
+    image: 'https://i.ibb.co/B4yM0Kq/Captura-de-pantalla-2024-11-22-161052.png',
+    github: 'https://github.com/cristech-ar/nasa-apod',
+    preview: 'https://nasa-apod.crisdev.tech'
   },
   {
-    title: 'Task Management System',
-    description: 'Real-time collaborative task management app with WebSocket integration',
+    title: 'Comming soon',
+    description: 'In development',
     image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000',
-    github: 'https://github.com/username/task-manager',
+    github: 'https://github.com/cristech-ar',
     preview: 'https://example.com/tasks'
   },
-  {
-    title: 'Social Media Dashboard',
-    description: 'Analytics dashboard for social media metrics with data visualization',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000',
-    github: 'https://github.com/username/dashboard',
-    preview: 'https://example.com/dashboard'
-  }
+
 ];
 
 export default function Projects({ darkMode }: { darkMode: boolean }) {
