@@ -48,7 +48,7 @@ export default function Hero({ darkMode }: { darkMode: boolean }) {
             className="hover:scale-110 transition-transform">
             <Linkedin size={28} />
           </a>
-          <a href="mailto:your.email@example.com"
+          <a href="mailto:contact@crisdev.tech"
             className="hover:scale-110 transition-transform">
             <Mail size={28} />
           </a>
