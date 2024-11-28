@@ -40,11 +40,11 @@ export default function Hero({ darkMode }: { darkMode: boolean }) {
         </div>
 
         <div className="flex justify-center space-x-6 mb-12 animate-slide-up animation-delay-300">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/cristech-ar" target="_blank" rel="noopener noreferrer"
             className="hover:scale-110 transition-transform">
             <Github size={28} />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+          <a href="https://linkedin.com/in/christian-rios-dev" target="_blank" rel="noopener noreferrer"
             className="hover:scale-110 transition-transform">
             <Linkedin size={28} />
           </a>
@@ -56,7 +56,7 @@ export default function Hero({ darkMode }: { darkMode: boolean }) {
         
         <div className="overflow-hidden">
           <a
-            href="/path-to-your-cv.pdf"
+            href="https://drive.google.com/file/d/12yQRpEAkOPYvzu7rUDEif3zE0PT-IhH9/view?usp=sharing"
             download
             className={`inline-flex items-center px-6 py-3 rounded-full animate-slide-up animation-delay-400 ${
               darkMode 

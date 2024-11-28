@@ -13,7 +13,7 @@ export default function Footer({ darkMode }: { darkMode: boolean }) {
           </div>
           <div className="flex space-x-6">
             <a
-              href="https://github.com/username"
+              href="https://github.com/cristech-ar"
               target="_blank"
               rel="noopener noreferrer"
               className={`hover:${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
@@ -29,7 +29,7 @@ export default function Footer({ darkMode }: { darkMode: boolean }) {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:contact@crisdev.tech"
               className={`hover:${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
             >
               <Mail size={24} />
