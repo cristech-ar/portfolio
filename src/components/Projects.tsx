@@ -10,11 +10,11 @@ const projects = [
     preview: 'https://nasa-apod.crisdev.tech'
   },
   {
-    title: 'Movie and series API',
-    description: ' Movie and Series API, a RESTful API built with Node.js, Express, and MongoDB. This API allows you to manage movies, TV series, actors, and directors. It also includes JWT-based authentication for secure access to protected endpoints.',
-    image: 'https://i.ibb.co/3mNkwQ1Z/API.png',
-    github: 'https://github.com/cristech-ar/contents-api',
-    preview: 'https://contents-api.crisdev.tech'
+    title: 'Comming soon',
+    description: 'In development',
+    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000',
+    github: 'https://github.com/cristech-ar',
+    preview: 'https://crisdev.tech'
   },
   {
     title: 'Comming soon',
