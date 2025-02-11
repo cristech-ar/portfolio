@@ -4,7 +4,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: 'NASA APOD Viewer',
-    description: 'A React web application built with TypeScript and Vite ',
+    description: 'A React web application built with TypeScript and Vite to explore the wonders of the universe! This app consumes the NASA API to display the Astronomical Picture of the Day (APOD) along with its description. 🚀✨',
     image: 'https://i.ibb.co/B4yM0Kq/Captura-de-pantalla-2024-11-22-161052.png',
     github: 'https://github.com/cristech-ar/nasa-apod',
     preview: 'https://nasa-apod.crisdev.tech'
